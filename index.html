@@ -24,7 +24,7 @@
         </p>
     </div>
    </section>
-   <section class="image-text-section">
+   <section class="image">
     <h2 class="title">Naruto</h2>
     <img src="./dist/images/Naruto_Crescendo.jfif" alt="Naruto">
     <div class="image-text-section_text_container">
@@ -34,7 +34,7 @@
         </p>
     </div>
    </section>
-   <section>
+  <section class="image">
      <h2 class="title">Naruto e Equipe</h2>
     <img src="./dist/images/equipe_7.webp" alt="Amigos do Naruto">
     <div class="image-text-section_text_container">
@@ -43,7 +43,7 @@
         </p>
     </div>
    </section>
-   <section>
+   <section class="image">
     <h2 class="title">Naruto Amigos</h2>
     <img src="./dist/images/naruto_pequeno.jfif" alt="Amigos do Naruto">
     <div class="image-text-section_text_container">
@@ -52,7 +52,7 @@
         </p>
     </div>
    </section>
-   <section>
+   <section class="image">
     <h2 class="title">Naruto e Sasuke</h2>
     <img src="./dist/images/naruto_sasuke.webp" alt="Amigos do Naruto">
     <div class="image-text-section_text_container">
@@ -63,21 +63,28 @@
    </section>
    <section class="shots">
     <h2 class="title--bige">Fotografias dos Personagem</h2>
-    <nav class="shots__tabs">
+    <nav class="shots__tabs shots__list--is-active">
         <button data-tab-button="Kakashi Hatake" class="shots__tabs__button">
             Kakashi Hatake
         </button>
-        <button data-tab-button="Jiraiya" class="shots__tabs__button">
-            Jiraiya
+        <button data-tab-button="Sen Jiraiya" class="shots__tabs__button">
+           Sen Jiraiya
         </button>
-        <button data-tab-button="Itachi Uchiha" class="shots__tabs__button">
+        <button data-tab-button="Orochimaru" class="shots__tabs__button">
           Orochimaru
         </button>
-        <button data-tab-button="Gaara">
+        <button data-tab-button="Gaara" class="shots__tabs__button">
            Gaara
         </button>
     </nav>
-    <ul data-tab-id=" Kakashi Hatake" class="shots__list shots__list--is-active">
+    <ul data-tab-id="Kakashi Hatake" class="shots__list shots__list--is-active">
+        <li class="shots__list__item">
+            <img src="./dist/images/Kakashi Hatake/Kakashi_Hatake_Criança.jfif" alt="Kakashi Criança">
+        </li>
+        <li class="shots__list__item">
+            <img src="./dist/images/Kakashi Hatake/Kakashi_Hatake_N.png" alt="Kakashi Hatake">
+        </li>
+        
         <li class="shots__list__item">
             <img src="./dist/images/Kakashi Hatake/Kakashi_Hatake.jpg" alt="Kakashi Hatake">
         </li>
@@ -90,8 +97,15 @@
         <li class="shots__list__item">
             <img src="./dist/images/Kakashi Hatake/Kakashi_Hokage.jfif" alt="Kakashi_Hokage">
         </li>
+
     </ul>
-    <ul data-tab-id="Jiraiya" class="shots__list">
+    <ul data-tab-id="Sen Jiraiya" class="shots__list">
+        <li class="shots__list__item">
+            <img src="./dist/images/Jiraiya/Jiraiya_Unico.png" alt="Jiraiya_Unico">
+        </li>
+        <li class="shots__list__item">
+            <img src="./dist/images/Jiraiya/Jiraiya_Novo.jfif" alt="Jiraiya_Novo">
+        </li>
         <li class="shots__list__item">
             <img src="./dist/images/Jiraiya/Jiraiya.jfif" alt="Jiraiya">
         </li>
@@ -106,6 +120,12 @@
         </li>
     </ul>
     <ul data-tab-id="Orochimaru" class="shots__list">
+        <li class="shots__list__item">
+            <img src="./dist/images/Orochimaru/Orochimaru_Novo.png" alt="Orochimaru_Novo">
+        </li>
+        <li class="shots__list__item">
+            <img src="./dist/images/Orochimaru/Orochimaru_Serpete.jpg" alt="Orochimaru_Serpete">
+        </li>
         <li class="shots__list__item">
             <img src="./dist/images/Orochimaru/Orochimaru.jfif" alt="Orochimaru">
         </li>
@@ -129,8 +149,14 @@
         <li class="shots__list__item">
             <img src="./dist/images/Gaara/Gaara_Combate.png" alt="Gaara_Combate">
         </li>
+         <li class="shots__list__item">
+            <img src="./dist/images/Gaara/Gaara_Lider.jfif" alt="Gaara_Lider">
+        </li>
         <li class="shots__list__item">
             <img src="./dist/images/Gaara/Gaara_Morto.png" alt="Gaara_Morto">
+        </li>
+        <li class="shots__list__item">
+            <img src="./dist/images/Gaara/Gaara_Chefe.jfif" alt="Gaara_Chefe">
         </li>
     </ul>
 </section>
@@ -175,6 +201,6 @@
         </ul>
     </div>
 </footer>
-
+<script src="./src/main.js"></script>
 </body>
 </html>

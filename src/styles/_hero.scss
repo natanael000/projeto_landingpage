@@ -32,10 +32,7 @@
 
            
         }
-
-    
-        
-        .title--small {
+    .title--small {
             display: flex;
             align-items: flex-end;
             height: 80px;
@@ -45,7 +42,10 @@
         }
 
         p {
-            margin-bottom: 20px;
+           
+            margin-left: 50%;
+            margin-top: 50px;
+            
         }
 
         &__combo {
@@ -65,5 +65,5 @@
             height: 50px;
         }
 }
-
+        
 }
